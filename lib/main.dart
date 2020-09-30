@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(new MyApp());
+void main() => runApp(new MyApp()); //returning MyApp
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: new MyHomePage(),
+      home: new MyHomePage(),    //returning MyHomePage
     );
   }
 }
@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         )
                       ],
                     ),
-                    SizedBox(width: 60.0),
+                    SizedBox(width: 60.0), ,,providing some space
                     Container(
                       height: 60.0,
                       width: 125.0,
